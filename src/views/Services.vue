@@ -4,34 +4,41 @@
       <img class="img" src="../assets/images/Services.svg">
     </div>
     <div class="pageTitle pt-4">
-      <h1><strong>SERVICES</strong></h1>
+      <img class="imgnotext" src="../assets/images/Servicesnotext.svg">
+      <h1 class="h1servicesmobile"><strong>SERVICES</strong></h1>
     </div>
+    <hr>
     <!-- FIRST ROW ! -->
     <div class="row" style="padding-top: 7%;">
       <div class="column">
+        <h4 class="h4top">Software Development</h4>
         <img src="../assets/images/Servicesimg1.svg" class="columnImage">
         <div class="cellText">
-          <h4>Software Development</h4>
+          <h4 class="h4bottom">Software Development</h4>
           <br>
           <p>To design, develop, implement, </p>
           <p>manage software development</p>
           <p class="pb-5">and provide quality assurance</p>
         </div>
       </div>
+      <hr>
       <div class="column">
+        <h4 class="h4top">Manual Testing</h4>
         <img src="../assets/images/Servicesimg2.svg" class="columnImage">
         <div class="cellText">
-          <h4>Manual Testing</h4>
+          <h4 class="h4bottom">Manual Testing</h4>
           <br>
           <p>Manual functional testing of </p>
           <p>system to ensure all features</p>
           <p class="pb-5">work as expected</p>
         </div>
       </div>
+      <hr>
       <div class="column">
+        <h4 class="h4top">Automation Testing</h4>
         <img src="../assets/images/Servicesimg3.svg" class="columnImage">
         <div class="cellText">
-          <h4>Automation Testing</h4>
+          <h4 class="h4bottom">Automation Testing</h4>
           <br>
           <p>Automate all possible manual</p>
           <p>functional testing</p>
@@ -41,37 +48,56 @@
           <br>
         </div>
       </div>
+      <hr>
     </div>
     <!-- SECOND ROW ! -->
     <div class="row pt-5">
       <div class="column">
+        <h4 class="h4top">Technical Support</h4>
         <img src="../assets/images/Servicesimg4.svg" class="columnImage">
         <div class="cellText">
-          <h4>Technical Support</h4>
+          <h4 class="h4bottom">Technical Support</h4>
           <br>
           <p>Support and maintain system, </p>
           <p>install, and configures and solves</p>
           <p class="pb-5">technical issues as they arise</p>
         </div>
       </div>
+      <hr>
       <div class="column">
+        <h4 class="h4top">System Maintenance</h4>
         <img src="../assets/images/Servicesimg5.svg" class="columnImage">
         <div class="cellText">
-          <h4>System Maintenance</h4>
+          <h4 class="h4bottom">System Maintenance</h4>
           <br>
           <p>Fixes problems related to</p>
           <p>the software and hardware </p>
           <p class="pb-5">components of computers</p>
         </div>
       </div>
+      <hr>
       <div class="column">
+        <h4 class="h4top">Computer Installation</h4>
         <img src="../assets/images/Servicesimg6.svg" class="columnImage">
         <div class="cellText">
-          <h4>Computer Installation</h4>
+          <h4 class="h4bottom">Computer Installation</h4>
           <br>
           <p>Setting up hardware and</p>
           <p>installing, configuring software </p>
           <p class="pb-5">and computer drivers</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="contactUsFooterHolder">
+      <div class="contactUsFooter contactrow">
+        <div class="contactcol">
+          <h1>Need more details? Contact us</h1>
+          <p>We are here to assist. Contact us by phone,
+          email or via our social media channels.</p>
+        </div>
+        <div class="contactcol">
+          <button class="btn btn-primary btn-color" href="#" type="submit">Contact us</button>
         </div>
       </div>
     </div>
@@ -106,6 +132,13 @@
     width: 100%;
   }
 
+  .imgnotext{
+    object-fit: cover;
+    object-position: -10% 35%;
+    height: 80px;
+    width: 100%;
+  }
+
   .imageHolder{
     display: none;
   }
@@ -124,6 +157,53 @@
     padding-bottom: 15px;
   }
 
+  hr{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .h1servicesmobile{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+
+  .h4top{
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .h4bottom{
+    display: none;
+  }
+
+  .contactUsFooter{
+    background-color: #FFFAFE;
+    padding-top: 25px;
+    font-size: 10px;
+    width: 100%;
+    height: 200px;
+    letter-spacing: .1rem;
+  }
+
+  .contactUsFooterHolder{
+    width: 100%;
+    height: 150px;
+  }
+
+  .btn-color{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #A52B7A;
+    border-radius: .5rem;
+    letter-spacing: .1rem;
+    border: none;
+    padding: 15px;
+  }
+
   @media only screen and (min-width: 768px){
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -139,21 +219,33 @@
     }
 
     .imageHolder{
-    display: block;
-    height: 100%;
-    widows: 100%;
+      display: block;
+      height: 100%;
+      widows: 100%;
     }
     .cellText{
-    text-align: left;
-    text-indent: 25%;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 0.3em;
-    color: #111111;
+      text-align: left;
+      text-indent: 25%;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0.3em;
+      color: #111111;
     }
     .columnImage{
-    width: 50%;
-    padding-bottom: 35px;
+      width: 50%;
+      padding-bottom: 35px;
+    }
+
+    hr{
+      display: none;
+    }
+
+    .h4top{
+      display: none;
+    }
+
+    .h4bottom{
+      display: block;
     }
   }
   @media only screen and (min-width: 1000px){
@@ -222,7 +314,127 @@
       width: 100%;
       padding-bottom: 20px;
     }
+    hr{
+      display: none;
     }
+
+    .h4top{
+      display: none;
+    }
+
+    .h4bottom{
+      display: block;
+    }
+
+  .contactrow{
+    display: table;
+    padding-right: 10%;
+  }
+
+  .contactcol{
+    display: table-cell;
+    padding-top: 5%;
+  }
+
+  .contactUsFooterHolder{
+    padding-top: 30px;
+  }
+    }
+  @media only screen and (min-width: 1400px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+  
+    .img{
+      object-fit: cover;
+      /* object-position: -10% 45%; */
+      height: 80%;
+      width: 100%;
+    }
+
+    .pageTitle{
+      display: none;
+    }
+
+    .imageHolder{
+      background-color: green;
+      height: auto;
+    }
+
+    .row{
+      display: table;
+      width: 100%; /*Optional*/
+      table-layout: fixed; /*Optional*/
+      padding-left: 5%;
+      /* padding-top: 5%; */
+      border-spacing: 60px 0px;
+    }
+
+    .column{
+      display: table-cell;
+      /* background-color: red; */
+      border-style: solid;
+      border-width: 1px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cellText{
+      text-align: left;
+      text-indent: 18px;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.19em;
+      color: #111111;
+    }
+    .cellText h4{
+      text-align: left;
+      text-indent: 18px;
+      font-size: 22px;
+      line-height: 15px;
+      letter-spacing: 0.19em;
+      color: #111111;
+    }
+
+    .columnImage{
+      width: 100%;
+      padding-bottom: 30px;
+    }
+
+    hr{
+      display: none;
+    }
+
+    .h4top{
+      display: none;
+    }
+
+    .h4bottom{
+      display: block;
+    }
+
+    .contactUsFooterHolder{
+    padding-top: 50px;
+  }
+
+    .contactcol p{
+      padding-left: 15%;
+      margin-bottom: -10%;
+      
+    }
+
+    .contactcol h1{
+      padding-left: 15%;
+      margin-top: -15%;
+    }
+
+  }  
   @media only screen and (min-width: 2000px){
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -246,7 +458,7 @@
 
   .imageHolder{
     background-color: green;
-    height: 500px;
+    height: 100%;
   }
 
   .row{
@@ -290,6 +502,36 @@
     width: 100%;
     padding-bottom: 70px;
   }
+
+  hr{
+      display: none;
+    }
+
+    .h4top{
+      display: none;
+    }
+
+    .h4bottom{
+      display: block;
+    }
+    .contactUsFooterHolder{
+    padding-top: 50px;
+  }
+
+    .contactcol p{
+      padding-left: 20%;
+      margin-bottom: -10%;
+      
+    }
+
+    .contactcol h1{
+      padding-left: 20%;
+      margin-top: -15%;
+    }
+    
+    .contactcol button{
+      margin-right: 10rem;
+    }
   }
 
 </style>
