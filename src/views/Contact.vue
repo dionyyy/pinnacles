@@ -1,107 +1,102 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
 
-<div class="body">
-
 <!-- image -->
- <div class="topwrap">
-
+  
     <div class="imghold">
-
       <img src="../../src/assets/images/Contactus.svg" class="img"/>
-
     </div>
+  
 
     <div class="container">
       <div class="contact">
         <label>CONTACT</label>
       </div>
-  </div>
-
- </div>
+    </div>
 
   <!-- pinnacle to send btn -->
-<div class="container">
+<!-- background -->
+<div class="body">
+  <div class="container">
     
-  <form autocomplete="off" action="" method="POST">
-    <input autocomplete="false" name="hidden" type="text" style="display:none;"/>
+    <form autocomplete="off" action="" method="POST">
+      <input autocomplete="false" name="hidden" type="text" style="display:none;"/>
 
-    <!-- title -->
-    <div class="titlehold">
-      <div class="title mb-3">
-        <strong><p>The Pinnacle</p>
-        <p>Operating Systems Inc.</p></strong>
+      <!-- title -->
+      <div class="titlehold">
+        <div class="title mb-3">
+          <strong><p>The Pinnacle</p>
+          <p>Operating Systems Inc.</p></strong>
+        </div>
+    </div>
+
+
+    <div class="boxholder">
+
+      <!-- First Name -->
+      <div class="mb-4">
+        <label>First Name</label>
+        <p>*</p>
+        <input type="text" name="f_name" required>
       </div>
-  </div>
 
+      <!-- Last Name -->
+      <div class="mb-4">
+        <label>Last Name</label>
+        <p>*</p>
+        <input type="text" name="l_name" required>
+      </div>
 
-  <div class="boxholder">
-    <!-- First Name -->
-    <div class="mb-4">
-      <label>First Name</label>
-      <p>*</p>
-      <input type="text" name="f_name" required>
+      <!-- Email Address -->
+      <div class="mb-4">
+        <label>Email Address</label>
+        <p>*</p>
+        <input type="email" name="email" required>
+      </div>
+
+      <!-- Subject -->
+      <div class="mb-4">
+        <label>Subject</label>
+        <p>*</p>
+        <input type="text" name="subject" required>
+      </div>
+
+      <!-- Message -->
+      <div class="mb-4">
+        <label>Message</label>
+        <p>*</p>
+        <textarea class="message" rows="5" type="text" name="message" required></textarea>
+      </div>
+
+      <button type="submit" class="btnsend" name="send">Send</button>
+
     </div>
-
-    <!-- Last Name -->
-    <div class="mb-4">
-      <label>Last Name</label>
-      <p>*</p>
-      <input type="text" name="l_name" required>
-    </div>
-
-    <!-- Email Address -->
-    <div class="mb-4">
-      <label>Email Address</label>
-      <p>*</p>
-      <input type="email" name="email" required>
-    </div>
-
-    <!-- Subject -->
-    <div class="mb-4">
-      <label>Subject</label>
-      <p>*</p>
-      <input type="text" name="subject" required>
-    </div>
-
-    <!-- Message -->
-    <div class="mb-4">
-      <label>Message</label>
-      <p>*</p>
-      <textarea class="message" rows="5" type="text" name="message" required></textarea>
-    </div>
-
-    <button type="submit" class="btnsend" name="send">Send</button>
-
-  </div>
-
-  </form>
+    </form>
 </div>
 <!-- end of-->
 
 
-<!-- address and call us -->
-<div class="container">
-  <div class="sideinfo">
-  
-  <!-- address -->
-    <div class="address">
-      <h5>Our Address</h5>
-      <p>554 Halcon corner Talumpong St., Brgy. Malamig Mandaluyong City</p>
+    <!-- address and call us -->
+    <div class="container">
+      <div class="sideinfo">
+      
+      <!-- address -->
+        <div class="address">
+          <h5>Our Address</h5>
+          <p>554 Halcon corner Talumpong St., Brgy. Malamig Mandaluyong City</p>
+        </div>
+
+      <!-- call us -->
+        <div class="callus">
+          <h5>Call Us</h5>
+          <p>+63 1234 56 78</p>
+        </div>
+        
+      </div>
     </div>
 
-  <!-- call us -->
-    <div class="callus">
-      <h5>Call Us</h5>
-      <p>+63 1234 56 78</p>
-    </div>
-
-  </div>
 </div>
 
-
-
-</div>
 
 </template>
 
@@ -112,37 +107,38 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 .body {
   background-image: url(../../src/assets/images/contactbg.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-size: 1580px 1100px;
   width: 100%;
-  
+  min-height: 90vh;
+  background-position: 400px -200px;
 }
 .contact{
   position: absolute;
   margin-left: 100px;
-  top: 256px;
-  color: #FFF;
+  margin-top: -250px;
+  color: #fff;
   font-size: 48px;
 }
 
-.topwrap .imghold{
+.imghold{
     height: 450px;
   }
 
 .img{
-    object-fit: cover;
+    object-fit:cover;
     object-position: -10% 62%;
     height: 100%;
     width: 100%;
   }
 
 .title{
-  display: block;
   margin: 20px 0px 10px;
   letter-spacing: 4px;
 }
@@ -267,18 +263,63 @@
   text-align: left;
 }
 
-@media (max-width: 375px){
-  .contact{
-    margin-left: 80px;
-  }
-
-  .boxholder{
-    width:355px;
+/*responsive*/
+@media (max-width: 575.98px){
+  
+  .imghold{
+    width: 606px;
+    margin-left: -30px;
+    height: 200px;
     transition: all 0.2s ease;
   }
 
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 180px;
+    margin-top: -125px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width:545px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
   .boxholder .btnsend{
-    margin-left: 15px;
+    margin-left: 0px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo{
+    padding: 20px;
+    margin: 0px;
+    display: block;
+    margin-top: 750px;
+    transition: all 0.2s ease;
+  }
+
+  .body{
+    background-size: 660px 580px;
+    width: 100%;
+    min-height: 90vh;
+    background-position: -100px 470px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo h5{
+    margin-bottom: 10px;
+  }
+
+  .sideinfo p{
+    margin-bottom: 20px;
   }
 }
 
