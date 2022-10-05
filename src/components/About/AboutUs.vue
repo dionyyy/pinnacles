@@ -3,7 +3,7 @@
         <div class="imgCont">
             <img src="../../../public/Images/About.svg" class="img"/>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row d-flex justify-content-center">
                 <div class="textAbout p-5 d-flex justify-content-center">
                     <div class="textHolder mt-5">
@@ -23,74 +23,74 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="team d-flex justify-content-center">
-            <div class="teamCont">
-                <h1 class="text">OUR TEAM</h1>
-                <div class="left col-lg mt-5">
-                    <div class="upper col-lg">
-                        <div class="icon">
-                            <img src="../../../public/Images/Juny.png" class="profile"/>
+            <div class="row d-flex justify-content-center">
+                <div class="team d-flex justify-content-center">
+                    <div class="teamCont">
+                        <h1 class="text">OUR TEAM</h1>
+                        <div class="d-flex justify-content-center">
+                            <div class="col1 p-4">
+                                <div class="icon">
+                                    <img src="../../../public/Images/Juny.png" class="profile"/>
+                                </div>
+                                <div class="textIcon">
+                                    <b class="text">Juny Jago, Programmer<br></b>juny@gmail.com | 09123456789
+                                    <br><br>
+                                    <text class="text">
+                                        Lorem ipsum dolor sit amet, consectetur<br>
+                                        elit, sed do eiusmod tempor incididunt<br>
+                                        aliquip ex ea commodo consequat.
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="col1 p-4" >
+                                <div class="icon">
+                                    <img src="../../../public/Images/Jester.png" class="profile"/>
+                                </div>
+                                <div class="textIcon">
+                                    <b class="text">Jester Longakit, QA Associate<br></b>jester@gmail.com | 09123456789
+                                    <br><br>
+                                    <text class="text">
+                                        Lorem ipsum dolor sit amet, consectetur<br>
+                                        elit, sed do eiusmod tempor incididunt<br>
+                                        aliquip ex ea commodo consequat.
+                                    </text>
+                                </div>
+                            </div>
                         </div>
-                        <div class="textIcon col-lg">
-                            <b class="text">Juny Jago, Programmer<br></b>juny@gmail.com | 09123456789
-                            <br><br>
-                            <text class="text">
-                                Lorem ipsum dolor sit amet, consectetur<br>
-                                elit, sed do eiusmod tempor incididunt<br>
-                                aliquip ex ea commodo consequat.
-                            </text>
-                        </div>
-                    </div>
-                    <div class="lower col-lg">
-                        <div class="icon col-lg">
-                            <img src="../../../public/Images/Marvin.png" class="profile"/>
-                        </div>
-                        <div class="textIcon col-lg">
-                            <b class="text">Marvin Reyes, Programmer<br></b>marvin@gmail.com | 09123456789
-                            <br><br>
-                            <text class="text">
-                                Lorem ipsum dolor sit amet, consectetur<br>
-                                elit, sed do eiusmod tempor incididunt<br>
-                                aliquip ex ea commodo consequat.
-                            </text>
-                        </div>
-                    </div>
-                </div>
-                <div class="right col-lg mt-5">
-                    <div class="upper col-lg">
-                        <div class="icon col-lg">
-                            <img src="../../../public/Images/Jester.png" class="profile"/>
-                        </div>
-                        <div class="textIcon col-lg">
-                            <b class="text">Jester Longakit, QA Associate<br></b>jester@gmail.com | 09123456789
-                            <br><br>
-                            <text class="text">
-                                Lorem ipsum dolor sit amet, consectetur<br>
-                                elit, sed do eiusmod tempor incididunt<br>
-                                aliquip ex ea commodo consequat.
-                            </text>
-                        </div>
-                    </div>
-                    <div class="lower col-lg">
-                        <div class="icon col-lg">
-                            <img src="../../../public/Images/Genesis.png" class="profile"/>
-                        </div>
-                        <div class="textIcon col-lg">
-                            <b class="text">Genesis Cruz, QA Associate<br></b>genesis@gmail.com | 09123456789
-                            <br><br>
-                            <text class="text">
-                                Lorem ipsum dolor sit amet, consectetur<br>
-                                elit, sed do eiusmod tempor incididunt<br>
-                                aliquip ex ea commodo consequat.
-                            </text>
+                        <div class="d-flex justify-content-center">
+                            <div class="col1 p-4">
+                                <div class="icon">
+                                    <img src="../../../public/Images/Marvin.png" class="profile"/>
+                                </div>
+                                <div class="textIcon">
+                                    <b class="text">Marvin Reyes, Programmer<br></b>marvin@gmail.com | 09123456789
+                                    <br><br>
+                                    <text class="text">
+                                        Lorem ipsum dolor sit amet, consectetur<br>
+                                        elit, sed do eiusmod tempor incididunt<br>
+                                        aliquip ex ea commodo consequat.
+                                    </text>
+                                </div>
+                            </div>
+                            <div class="col1 p-4">
+                                <div class="icon">
+                                    <img src="../../../public/Images/Genesis.png" class="profile"/>
+                                </div>
+                                <div class="textIcon">
+                                    <b class="text">Genesis Cruz, QA Associate<br></b>genesis@gmail.com | 09123456789
+                                    <br><br>
+                                    <text class="text">
+                                        Lorem ipsum dolor sit amet, consectetur<br>
+                                        elit, sed do eiusmod tempor incididunt<br>
+                                        aliquip ex ea commodo consequat.
+                                    </text>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container d-flex justify-content-center" style="height:300px;">
-            <div class="row d-flex justify-content-center" style="margin:auto;">
+            <div class="row d-flex justify-content-center" style="margin:auto; overflow:hidden; height:300px;">
                 <div class="cntct d-flex justify-content-center">
                     <h2 class="text font-weight-bold">Need more details? Contact us<br>
                     <p class="text cstM">
@@ -120,7 +120,7 @@
         background: url(../../../public/Images/watermark.png);
         background-size: 800px;
         background-repeat: no-repeat;
-        background-position: 120% 70%;
+        background-position: 90% 70%;
     }
 
     .textHolder{
@@ -135,7 +135,7 @@
     .team{
         background-color: #FFFAFE;
         padding:20px;
-        height:650px;
+        height:auto;
     }
 
     .teamCont{
@@ -189,6 +189,7 @@
     .cntct{
         text-align: left;
         height:100px;
+        margin-top:100px;
     }
 
     .cstM{
