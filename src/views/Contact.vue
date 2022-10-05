@@ -79,18 +79,22 @@
     <!-- address and call us -->
     <div class="container">
       <div class="sideinfo">
-      
+
       <!-- address -->
+      <div class="container">
         <div class="address">
           <h5>Our Address</h5>
           <p>554 Halcon corner Talumpong St., Brgy. Malamig Mandaluyong City</p>
         </div>
+      </div>
 
       <!-- call us -->
+      <div class="container">
         <div class="callus">
           <h5>Call Us</h5>
           <p>+63 1234 56 78</p>
         </div>
+      </div>
         
       </div>
     </div>
@@ -99,6 +103,8 @@
 
 
 </template>
+
+
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -244,12 +250,14 @@
   margin: 210px 0px 0px 700px;
   display: flex;
   letter-spacing: 2px;
+  width: 600px;
 }
 
 .sideinfo .address{
   width: 350px;
-  margin-right: 80px;
+  margin-right: 25px;
 }
+
 
 .sideinfo h5{
   position: block;
@@ -263,11 +271,11 @@
   text-align: left;
 }
 
-/*responsive*/
-@media (max-width: 575.98px){
+/*responsive desktop */
+@media screen and (max-width: 1200px){
   
   .imghold{
-    width: 606px;
+    width: 1230px;
     margin-left: -30px;
     height: 200px;
     transition: all 0.2s ease;
@@ -288,38 +296,252 @@
   }
 
   .boxholder{
-    width:545px;
+    width:585px;
     transition: all 0.2s ease;
     margin-left: 5px;
   }
 
   .boxholder .btnsend{
-    margin-left: 0px;
+    display: flex;
     transition: all 0.2s ease;
+    margin-left: 320px;
   }
 
   .sideinfo{
     padding: 20px;
     margin: 0px;
-    display: block;
-    margin-top: 750px;
+    display: flex;
+    margin-top: 200px;
     transition: all 0.2s ease;
+    text-align: center;
+    width: 510px;
+    margin-left: 630px;
   }
 
   .body{
-    background-size: 660px 580px;
+    background-size: 1050px 900px;
+    width: 96%;
+    min-height: 80vh;
+    background-position: 100px -50px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .address{
+    width: 200px;
+    margin-left: 25px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .callus{
+    width: 200px;
+    margin-left: 15px;
+    transition: all 0.2s ease;
+  }
+}
+
+/*responsive laptop */
+@media screen and (max-width: 992.65px){
+  
+  .imghold{
+    width: 1020px;
+    margin-left: -30px;
+    height: 200px;
+    transition: all 0.2s ease;
+  }
+
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
     width: 100%;
-    min-height: 90vh;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 180px;
+    margin-top: -125px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width:455px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
+  .boxholder .btnsend{
+    display: flex;
+    transition: all 0.2s ease;
+    margin-left: 190px;
+  }
+
+  .sideinfo{
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    margin-top: 200px;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 510px;
+    margin-left: 450px;
+  }
+
+  .body{
+    background-size: 1050px 840px;
+    width: 96%;
+    min-height: 80vh;
+    background-position: -100px 10px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .address{
+    width: 200px;
+    margin-left: 25px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .callus{
+    width: 200px;
+    margin-left: 15px;
+    transition: all 0.2s ease;
+  }
+}
+
+/*responsive tablet */
+@media screen and (max-width: 575.98px){
+  
+  .imghold{
+    width: 513px;
+    margin-left: -30px;
+    height: 200px;
+    transition: all 0.2s ease;
+  }
+
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 170px;
+    margin-top: -125px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width:455px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
+  .boxholder .btnsend{
+    display: flex;
+    transition: all 0.2s ease;
+    margin-left: 200px;
+  }
+
+  .sideinfo{
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    margin-top: 700px;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 100%;
+  }
+
+  .body{
+    background-size: 680px 540px;
+    width: 100%;
+    min-height: 100vh;
     background-position: -100px 470px;
     transition: all 0.2s ease;
   }
 
-  .sideinfo h5{
-    margin-bottom: 10px;
+  .sideinfo .address{
+    width: 200px;
+    margin-left: 25px;
+    transition: all 0.2s ease;
   }
 
-  .sideinfo p{
-    margin-bottom: 20px;
+  .sideinfo .callus{
+    width: 200px;
+    transition: all 0.2s ease;
+  }
+}
+
+
+/*responsive mobile */
+@media screen and (max-width: 375px){
+
+  .imghold{
+    width: 405px;
+    margin-left: -30px;
+    height: 200px;
+    transition: all 0.2s ease;
+  }
+
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 70px;
+    margin-top: -125px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width:345px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
+  .boxholder .btnsend{
+    display: flex;
+    transition: all 0.2s ease;
+    margin-left: 55px;
+  }
+
+  .sideinfo{
+    padding: 10px 15px;
+    display: block;
+    margin-top: 700px;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 100%;
+  }
+
+  .body{
+    background-size: 420px 520px;
+    width: 100%;
+    min-height: 100vh;
+    background-position: -50px 600px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .address{
+    width: 260px;
+    transition: all 0.2s ease;
+  }
+  
+  .sideinfo h5, .sideinfo p{
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .callus{
+    width: 200px;
+    margin-left: 50px;
+    padding-top: 20px;
+    transition: all 0.2s ease;
   }
 }
 
