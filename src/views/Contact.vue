@@ -120,10 +120,10 @@
 .body {
   background-image: url(../../src/assets/images/contactbg.png);
   background-repeat: no-repeat;
-  background-size: 1580px 1100px;
+  background-size: 2280px 1160px;
   width: 100%;
   min-height: 90vh;
-  background-position: 400px -200px;
+  background-position: 50px -200px;
 }
 .contact{
   position: absolute;
@@ -271,13 +271,13 @@
   text-align: left;
 }
 
-/*responsive desktop */
-@media screen and (max-width: 1200px){
+/*responsive laptopl */
+@media screen and (max-width: 1440.65px){
   
   .imghold{
-    width: 1230px;
+    width: 1470px;
     margin-left: -30px;
-    height: 200px;
+    height: 300px;
     transition: all 0.2s ease;
   }
 
@@ -291,12 +291,12 @@
 
   .contact{
     margin-left: 180px;
-    margin-top: -125px;
+    margin-top: -175px;
     transition: all 0.2s ease;
   }
 
   .boxholder{
-    width:585px;
+    width: 528px;
     transition: all 0.2s ease;
     margin-left: 5px;
   }
@@ -304,7 +304,7 @@
   .boxholder .btnsend{
     display: flex;
     transition: all 0.2s ease;
-    margin-left: 320px;
+    margin-left: 282px;
   }
 
   .sideinfo{
@@ -315,14 +315,14 @@
     transition: all 0.2s ease;
     text-align: center;
     width: 510px;
-    margin-left: 630px;
+    margin-left: 680px;
   }
 
   .body{
-    background-size: 1050px 900px;
+    background-size: 1250px 1000px;
     width: 96%;
     min-height: 80vh;
-    background-position: 100px -50px;
+    background-position: 100px -130px;
     transition: all 0.2s ease;
   }
 
@@ -334,18 +334,18 @@
 
   .sideinfo .callus{
     width: 200px;
-    margin-left: 15px;
+    margin-left: 100px;
     transition: all 0.2s ease;
   }
 }
 
 /*responsive laptop */
-@media screen and (max-width: 992.65px){
+@media screen and (max-width: 1024.65px){
   
   .imghold{
-    width: 1020px;
+    width: 1053px;
     margin-left: -30px;
-    height: 200px;
+    height: 300px;
     transition: all 0.2s ease;
   }
 
@@ -359,7 +359,7 @@
 
   .contact{
     margin-left: 180px;
-    margin-top: -125px;
+    margin-top: -165px;
     transition: all 0.2s ease;
   }
 
@@ -372,7 +372,7 @@
   .boxholder .btnsend{
     display: flex;
     transition: all 0.2s ease;
-    margin-left: 190px;
+    margin-left: 210px;
   }
 
   .sideinfo{
@@ -396,24 +396,96 @@
 
   .sideinfo .address{
     width: 200px;
-    margin-left: 25px;
+    margin-left: 45px;
     transition: all 0.2s ease;
   }
 
   .sideinfo .callus{
     width: 200px;
-    margin-left: 15px;
+    margin-left: 10px;
     transition: all 0.2s ease;
   }
 }
 
+
 /*responsive tablet */
+@media screen and (max-width: 768.65px){
+  
+  .imghold{
+    width: 797px;
+    margin-left: -30px;
+    height: 300px;
+    transition: all 0.2s ease;
+  }
+
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 140px;
+    margin-top: -175px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width:450px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
+  .boxholder .btnsend{
+    display: flex;
+    transition: all 0.2s ease;
+    margin-left: 205px;
+  }
+
+  .sideinfo{
+    padding: 20px;
+    margin: 0px;
+    display: block;
+    margin-top: 150px;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 290px;
+    margin-left: 450px;
+  }
+
+  .body{
+    background-size: 820px 690px;
+    width: 96%;
+    min-height: 80vh;
+    background-position: -80px 100px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .address{
+    width: 200px;
+    margin-left: 25px;
+    transition: all 0.2s ease;
+
+  }
+
+  .sideinfo .callus{
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    transition: all 0.2s ease;
+  }
+}
+
+
+/*responsive phone l */
 @media screen and (max-width: 575.98px){
   
   .imghold{
-    width: 513px;
+    width: 606px;
     margin-left: -30px;
-    height: 200px;
+    height: 300px;
     transition: all 0.2s ease;
   }
 
@@ -427,12 +499,12 @@
 
   .contact{
     margin-left: 170px;
-    margin-top: -125px;
+    margin-top: -175px;
     transition: all 0.2s ease;
   }
 
   .boxholder{
-    width:455px;
+    width:525px;
     transition: all 0.2s ease;
     margin-left: 5px;
   }
@@ -440,7 +512,7 @@
   .boxholder .btnsend{
     display: flex;
     transition: all 0.2s ease;
-    margin-left: 200px;
+    margin-left: 275px;
   }
 
   .sideinfo{
@@ -474,7 +546,7 @@
 }
 
 
-/*responsive mobile */
+/*responsive phone s */
 @media screen and (max-width: 375px){
 
   .imghold{
