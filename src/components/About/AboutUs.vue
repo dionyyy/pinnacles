@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="imgCont">
-            <img src="../../../public/Images/About.svg" class="img"/>
+            <img src="../../../src/assets/images/About.svg" class="img"/>
         </div>
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
@@ -30,7 +30,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/Juny.png" class="profile"/>
+                                    <img src="../../../src/assets/images/Juny.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Ronald Mesa, Technical Manager<br></b>ronald@gmail.com | 09123456789
@@ -44,7 +44,7 @@
                             </div>
                             <div class="col1 p-4" >
                                 <div class="icon">
-                                    <img src="../../../public/Images/Jester.png" class="profile"/>
+                                    <img src="../../../src/assets/images/Jester.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Jester Longakit, QA Associate<br></b>jester@gmail.com | 09123456789
@@ -60,7 +60,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/Juny.png" class="profile"/>
+                                    <img src="../../../src/assets/images/Juny.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Juny Jago, Programmer<br></b>juny@gmail.com | 09123456789
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/Genesis.png" class="profile"/>
+                                    <img src="../../../src/assets/images/Genesis.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Genesis Cruz, QA Associate<br></b>genesis@gmail.com | 09123456789
@@ -90,7 +90,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/Marvin.png" class="profile"/>
+                                    <img src="../../../src/assets/images/Marvin.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Marvin Reyes, Programmer<br></b>marvin@gmail.com | 09123456789
@@ -104,7 +104,7 @@
                             </div>
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/erivie.jpg" class="profile"/>
+                                    <img src="../../../src/assets/images/erivie.jpg" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Erivie  Palapag, QA Associate<br></b>erivie@gmail.com | 09123456789
@@ -120,7 +120,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/becca.jpg" class="profile"/>
+                                    <img src="../../../src/assets/images/becca.jpg" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Rebecca Del Rosario, UI/UX Designer<br></b>becca@gmail.com | 09123456789
@@ -134,7 +134,7 @@
                             </div>
                             <div class="col1 p-4">
                                 <div class="icon">
-                                    <img src="../../../public/Images/casey.png" class="profile"/>
+                                    <img src="../../../src/assets/images/casey.png" class="profile"/>
                                 </div>
                                 <div class="textIcon">
                                     <b class="text">Casey Custodio, QA Associate<br></b>casey@gmail.com | 09123456789
@@ -176,7 +176,7 @@
 
     .textAbout{
         height:500px;
-        background: url(../../../public/Images/watermark.png);
+        background: url(../../../src/assets/images/watermark.png);
         background-size: 800px;
         background-repeat: no-repeat;
         background-position: 90% 70%;
