@@ -114,6 +114,10 @@
     text-decoration: none;
 }
 
+.bghold{
+  width: 1894px;
+}
+
 .body {
   background-image: url(../../src/assets/images/contactbg.png);
   background-repeat: no-repeat;
