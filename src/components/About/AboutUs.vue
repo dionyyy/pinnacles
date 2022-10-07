@@ -26,7 +26,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="team d-flex justify-content-center">
                     <div class="teamCont">
-                        <h1 class="text">OUR TEAM</h1>
+                        <h1 class="text mb-5" style="margin-left:100px;">OUR TEAM</h1>
                         <div class="d-flex justify-content-center">
                             <div class="col1 p-4">
                                 <div class="icon">
@@ -183,7 +183,6 @@
     }
 
     .textHolder{
-        margin-left:-380px;
         text-align: left;
     }
 
