@@ -51,7 +51,7 @@
       <hr>
     </div>
     <!-- SECOND ROW ! -->
-    <div class="row pt-5">
+    <div class="row py-5">
       <div class="column">
         <h4 class="h4top">Technical Support</h4>
         <img src="../assets/images/Servicesimg4.svg" class="columnImage">
@@ -84,22 +84,10 @@
           <br>
           <p>Setting up hardware and</p>
           <p>installing, configuring software </p>
-          <p class="pb-5">and computer drivers</p>
+          <p class="pd-5">and computer drivers</p>
         </div>
       </div>
       <hr>
-    </div>
-    <div class="contactUsFooterHolder">
-      <div class="contactUsFooter contactrow">
-        <div class="contactcol">
-          <h1>Need more details? Contact us</h1>
-          <p>We are here to assist. Contact us by phone,
-          email or via our social media channels.</p>
-        </div>
-        <div class="contactcol">
-          <button class="btn btn-primary btn-color" href="#" type="submit">Contact us</button>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -180,39 +168,7 @@
     display: none;
   }
 
-  .contactUsFooter{
-    background-color: #FFFAFE;
-    padding-top: 25px;
-    font-size: 10px;
-    width: 100%;
-    height: 200px;
-    letter-spacing: .1rem;
-  }
-
-  .contactUsFooterHolder{
-    width: 100%;
-    height: 150px;
-  }
-
-  .btn-color{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: #A52B7A;
-    border-radius: .5rem;
-    letter-spacing: .1rem;
-    border: none;
-    padding: 15px;
-  }
-
   @media only screen and (min-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
 
     .pageTitle{
       display: none;
@@ -224,12 +180,10 @@
       widows: 100%;
     }
     .cellText{
-      text-align: left;
       text-indent: 25%;
       font-size: 15px;
       line-height: 25px;
       letter-spacing: 0.3em;
-      color: #111111;
     }
     .columnImage{
       width: 50%;
@@ -249,24 +203,12 @@
     }
   }
   @media only screen and (min-width: 1000px){
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
   
     .img{
       object-fit: cover;
       /* object-position: -10% 45%; */
       height: 80%;
       width: 100%;
-    }
-
-    .pageTitle{
-      display: none;
     }
 
     .imageHolder{
@@ -314,223 +256,63 @@
       width: 100%;
       padding-bottom: 20px;
     }
-    hr{
-      display: none;
-    }
-
-    .h4top{
-      display: none;
-    }
-
-    .h4bottom{
-      display: block;
-    }
-
-  .contactrow{
-    display: table;
-    padding-right: 10%;
   }
-
-  .contactcol{
-    display: table-cell;
-    padding-top: 5%;
-  }
-
-  .contactUsFooterHolder{
-    padding-top: 30px;
-  }
-    }
   @media only screen and (min-width: 1400px){
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-  
-    .img{
-      object-fit: cover;
-      /* object-position: -10% 45%; */
-      height: 80%;
-      width: 100%;
-    }
-
-    .pageTitle{
-      display: none;
-    }
 
     .imageHolder{
       background-color: green;
       height: auto;
     }
 
-    .row{
-      display: table;
-      width: 100%; /*Optional*/
-      table-layout: fixed; /*Optional*/
-      padding-left: 5%;
-      /* padding-top: 5%; */
-      border-spacing: 60px 0px;
-    }
-
-    .column{
-      display: table-cell;
-      /* background-color: red; */
-      border-style: solid;
-      border-width: 1px;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-
     .cellText{
-      text-align: left;
       text-indent: 18px;
       font-size: 12px;
-      line-height: 15px;
       letter-spacing: 0.19em;
-      color: #111111;
     }
+
     .cellText h4{
-      text-align: left;
       text-indent: 18px;
       font-size: 22px;
       line-height: 15px;
       letter-spacing: 0.19em;
-      color: #111111;
     }
 
     .columnImage{
-      width: 100%;
       padding-bottom: 30px;
     }
 
-    hr{
-      display: none;
-    }
-
-    .h4top{
-      display: none;
-    }
-
     .h4bottom{
       display: block;
     }
-
-    .contactUsFooterHolder{
-    padding-top: 50px;
-  }
-
-    .contactcol p{
-      padding-left: 15%;
-      margin-bottom: -10%;
-      
-    }
-
-    .contactcol h1{
-      padding-left: 15%;
-      margin-top: -15%;
-    }
-
   }  
   @media only screen and (min-width: 2000px){
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
   
-  .img{
-    object-fit: cover;
-    /* object-position: -10% 45%; */
-    height: 100%;
-    width: 100%;
-  }
-
-  .pageTitle{
-    display: none;
-  }
-
-  .imageHolder{
-    background-color: green;
-    height: 100%;
-  }
-
-  .row{
-    display: table;
-    width: 85%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    padding-left: 15%;
-    /* padding-top: 5%; */
-    border-spacing: 60px 0px;
-  }
-
-  .column{
-    display: table-cell;
-    /* background-color: red; */
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  .cellText{
-    text-align: left;
-    text-indent: 15%;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 0.1em;
-    color: #111111;
-  }
-
-  .cellText h4{
-    text-align: left;
-    text-indent: 15%;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.1em;
-    color: #111111;
-  }
-
-  .columnImage{
-    width: 100%;
-    padding-bottom: 70px;
-  }
-
-  hr{
-      display: none;
+    .img{
+      object-fit: cover;
+      /* object-position: -10% 45%; */
+      height: 100%;
+      width: 100%;
     }
 
-    .h4top{
-      display: none;
+    .row{
+      display: table;
+      width: 85%; /*Optional*/
     }
 
-    .h4bottom{
-      display: block;
-    }
-    .contactUsFooterHolder{
-    padding-top: 50px;
-  }
-
-    .contactcol p{
-      padding-left: 20%;
-      margin-bottom: -10%;
-      
+    .cellText{
+      text-indent: 15%;
+      font-size: 15px;
+      line-height: 25px;
     }
 
-    .contactcol h1{
-      padding-left: 20%;
-      margin-top: -15%;
+    .cellText h4{
+      text-indent: 15%;
+      font-size: 20px;
+      line-height: 25px;
     }
-    
-    .contactcol button{
-      margin-right: 10rem;
+
+    .columnImage{
+      padding-bottom: 70px;
     }
   }
 
