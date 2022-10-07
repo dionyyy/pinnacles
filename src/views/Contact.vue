@@ -16,6 +16,7 @@
 
   <!-- pinnacle to send btn -->
 <!-- background -->
+<div class="bghold">
 <div class="body">
   <div class="container">
     
@@ -29,7 +30,6 @@
           <p>Operating Systems Inc.</p></strong>
         </div>
     </div>
-
 
     <div class="boxholder">
 
@@ -75,7 +75,6 @@
 </div>
 <!-- end of-->
 
-
     <!-- address and call us -->
     <div class="container">
       <div class="sideinfo">
@@ -100,11 +99,9 @@
     </div>
 
 </div>
-
+</div>
 
 </template>
-
-
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -318,11 +315,16 @@
     margin-left: 680px;
   }
 
+  .bghold{
+    width: 1440px;
+    transition: all 0.2s ease;
+  }
+
   .body{
     background-size: 1250px 1000px;
-    width: 96%;
+    width: 100%;
     min-height: 80vh;
-    background-position: 100px -130px;
+    background-position: 100px -155px;
     transition: all 0.2s ease;
   }
 
@@ -386,9 +388,14 @@
     margin-left: 450px;
   }
 
+  .bghold{
+    width: 985px;
+    transition: all 0.2s ease;
+  }
+
   .body{
     background-size: 1050px 840px;
-    width: 96%;
+    width: 100%;
     min-height: 80vh;
     background-position: -100px 10px;
     transition: all 0.2s ease;
@@ -406,7 +413,6 @@
     transition: all 0.2s ease;
   }
 }
-
 
 /*responsive tablet */
 @media screen and (max-width: 768.65px){
@@ -455,9 +461,14 @@
     margin-left: 450px;
   }
 
+  .bghold{
+    width: 762px;
+    transition: all 0.2s ease;
+  }
+
   .body{
     background-size: 820px 690px;
-    width: 96%;
+    width: 100%;
     min-height: 80vh;
     background-position: -80px 100px;
     transition: all 0.2s ease;
@@ -467,7 +478,6 @@
     width: 200px;
     margin-left: 25px;
     transition: all 0.2s ease;
-
   }
 
   .sideinfo .callus{
@@ -478,12 +488,11 @@
   }
 }
 
-
 /*responsive phone l */
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 425.65px){
   
   .imghold{
-    width: 606px;
+    width: 455px;
     margin-left: -30px;
     height: 300px;
     transition: all 0.2s ease;
@@ -498,13 +507,13 @@
   }
 
   .contact{
-    margin-left: 170px;
+    margin-left: 85px;
     margin-top: -175px;
     transition: all 0.2s ease;
   }
 
   .boxholder{
-    width:525px;
+    width:395px;
     transition: all 0.2s ease;
     margin-left: 5px;
   }
@@ -512,7 +521,7 @@
   .boxholder .btnsend{
     display: flex;
     transition: all 0.2s ease;
-    margin-left: 275px;
+    margin-left: 156px;
   }
 
   .sideinfo{
@@ -525,29 +534,34 @@
     width: 100%;
   }
 
+  .bghold{
+    width: 425px;
+    transition: all 0.2s ease;
+  }
+
   .body{
-    background-size: 680px 540px;
+    background-size: 450px 540px;
     width: 100%;
     min-height: 100vh;
-    background-position: -100px 470px;
+    background-position: -45px 550px;
     transition: all 0.2s ease;
   }
 
   .sideinfo .address{
-    width: 200px;
-    margin-left: 25px;
+    width: 150px;
+    margin-left: 15px;
     transition: all 0.2s ease;
   }
 
   .sideinfo .callus{
-    width: 200px;
+    margin-top: 0px;
+    width: 100px;
     transition: all 0.2s ease;
   }
 }
 
-
-/*responsive phone s */
-@media screen and (max-width: 375px){
+/*responsive phone M */
+@media screen and (max-width: 375.68px){
 
   .imghold{
     width: 405px;
@@ -565,13 +579,13 @@
   }
 
   .contact{
-    margin-left: 70px;
+    margin-left: 65px;
     margin-top: -125px;
     transition: all 0.2s ease;
   }
 
   .boxholder{
-    width:345px;
+    width: 340px;
     transition: all 0.2s ease;
     margin-left: 5px;
   }
@@ -579,7 +593,7 @@
   .boxholder .btnsend{
     display: flex;
     transition: all 0.2s ease;
-    margin-left: 55px;
+    margin-left: 50px;
   }
 
   .sideinfo{
@@ -591,8 +605,13 @@
     width: 100%;
   }
 
+  .bghold{
+    width: 375px;
+    transition: all 0.2s ease;
+  }
+
   .body{
-    background-size: 420px 520px;
+    background-size: 400px 520px;
     width: 100%;
     min-height: 100vh;
     background-position: -50px 600px;
@@ -612,6 +631,82 @@
   .sideinfo .callus{
     width: 200px;
     margin-left: 50px;
+    padding-top: 20px;
+    transition: all 0.2s ease;
+  }
+}
+
+/*responsive phone S */
+@media screen and (max-width: 320.68px){
+
+  .imghold{
+    width: 349px;
+    margin-left: -30px;
+    height: 200px;
+    transition: all 0.2s ease;
+  }
+
+  .img{
+    object-fit:cover;
+    object-position: 80%;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+
+  .contact{
+    margin-left: 35px;
+    margin-top: -125px;
+    transition: all 0.2s ease;
+  }
+
+  .boxholder{
+    width: 290px;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+  }
+
+  .boxholder .btnsend{
+    display: flex;
+    transition: all 0.2s ease;
+    margin-left: 20px;
+  }
+
+  .sideinfo{
+    padding: 10px 15px;
+    display: block;
+    margin-top: 700px;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .bghold{
+    width: 319px;
+    transition: all 0.2s ease;
+  }
+
+  .body{
+    background-size: 360px 520px;
+    width: 100%;
+    min-height: 100vh;
+    background-position: -50px 600px;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .address{
+    width: 260px;
+    transition: all 0.2s ease;
+  }
+  
+  .sideinfo h5, .sideinfo p{
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .sideinfo .callus{
+    width: 200px;
     padding-top: 20px;
     transition: all 0.2s ease;
   }
