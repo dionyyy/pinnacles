@@ -4,7 +4,7 @@
 <!-- image -->
   
     <div class="imghold">
-      <img src="../../src/assets/images/Contactus.svg" class="img"/>
+      <img src="../../src/assets/images/contactimg/Contactus.svg" class="img"/>
     </div>
   
 
@@ -119,7 +119,7 @@
 }
 
 .body {
-  background-image: url(../../src/assets/images/contactbg.png);
+  background-image: url(../../src/assets/images/contactimg/contactbg.png);
   background-repeat: no-repeat;
   background-size: 2280px 1160px;
   width: 100%;
