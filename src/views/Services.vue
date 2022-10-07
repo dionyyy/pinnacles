@@ -1,7 +1,7 @@
 <template>
   <div class="service">
     <div class="imageHolder">
-      <img class="img" src="../assets/images/Services.svg">
+      <img class="img" src="../assets/images/About.svg">
     </div>
     <div class="pageTitle pt-4">
       <img class="imgnotext" src="../assets/images/Servicesnotext.svg">
@@ -297,6 +297,7 @@
     .row{
       display: table;
       width: 85%; /*Optional*/
+      padding-left: 20%;
     }
 
     .cellText{
