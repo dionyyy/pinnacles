@@ -1,10 +1,10 @@
 <template>
   <div class="service">
     <div class="imageHolder">
-      <img class="img" src="../assets/servicesImg/Services.svg">
+      <img class="img" src="../assets/images/servicesImg/Services.svg">
     </div>
     <div class="pageTitle pt-4">
-      <img class="imgnotext" src="../assets/servicesImg/Servicesnotext.svg">
+      <img class="imgnotext" src="../assets/images/servicesImg/Servicesnotext.svg">
       <h1 class="h1servicesmobile"><strong>SERVICES</strong></h1>
     </div>
     <hr>
@@ -12,7 +12,7 @@
     <div class="row" style="padding-top: 7%;">
       <div class="column">
         <h4 class="h4top">Software Development</h4>
-        <img src="../assets/servicesImg/Servicesimg1.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg1.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">Software Development</h4>
           <br>
@@ -24,7 +24,7 @@
       <hr>
       <div class="column">
         <h4 class="h4top">Manual Testing</h4>
-        <img src="../assets/servicesImg/Servicesimg2.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg2.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">Manual Testing</h4>
           <br>
@@ -36,7 +36,7 @@
       <hr>
       <div class="column">
         <h4 class="h4top">Automation Testing</h4>
-        <img src="../assets/servicesImg/Servicesimg3.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg3.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">Automation Testing</h4>
           <br>
@@ -54,7 +54,7 @@
     <div class="row py-5">
       <div class="column">
         <h4 class="h4top">Technical Support</h4>
-        <img src="../assets/servicesImg/Servicesimg4.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg4.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">Technical Support</h4>
           <br>
@@ -66,7 +66,7 @@
       <hr>
       <div class="column">
         <h4 class="h4top">System Maintenance</h4>
-        <img src="../assets/servicesImg/Servicesimg5.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg5.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">System Maintenance</h4>
           <br>
@@ -78,7 +78,7 @@
       <hr>
       <div class="column">
         <h4 class="h4top">Computer Installation</h4>
-        <img src="../assets/servicesImg/Servicesimg6.svg" class="columnImage">
+        <img src="../assets/images/servicesImg/Servicesimg6.svg" class="columnImage">
         <div class="cellText">
           <h4 class="h4bottom">Computer Installation</h4>
           <br>
